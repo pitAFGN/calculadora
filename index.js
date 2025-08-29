@@ -6,6 +6,11 @@ function sumar(num1, num2) {
 function restar(num1, num2) {
   return num1 - num2;
 }
+
+function multiplicar(num1, num2) {
+  return num1 * num2;
+}
+
 // Función principal del programa
 function calculadora() {
   var opcion = prompt(
@@ -49,5 +54,5 @@ function calculadora() {
   alert("El resultado es: " + resultado);
 }
 
-// Llamar a la función principal
+
 calculadora();
