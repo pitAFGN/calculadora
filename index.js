@@ -3,7 +3,7 @@ function sumar(num1, num2) {
   return num1 + num2;
 }
 
-function restar() {
+function restar(num1, num2) {
   return num1 - num2;
 }
 // Función principal del programa
