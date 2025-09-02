@@ -15,6 +15,23 @@ function dividir(num1, num2) {
   return num1/num2
 }
 
+function factorial(n) {
+  if (n < 0) {
+    return "No existe factorial de números negativos";
+  }
+
+  if (n === 0) {
+    return 1; // caso especial: 0! = 1
+  }
+
+  let resultado = 1;
+  for (let i = 1; i <= n; i++) {
+    resultado *= i;
+  }
+
+  return resultado;
+}
+
 // Función principal del programa
 function calculadora() {
   var opcion = prompt(
