@@ -36,6 +36,12 @@ function exponente(num1, exponenteNum) {
   return num1 ** exponenteNum; // se lee: base elevado a exp
 }
 
+function raizCuadrada(n) {
+  if (n < 0) {
+    return "No se puede calcular la raíz cuadrada de un número negativo";
+  }
+  return Math.sqrt(n);
+}
 
 // Función principal del programa
 function calculadora() {
@@ -45,7 +51,7 @@ function calculadora() {
   var num1 = parseFloat(prompt("Ingrese el primer número:"));
   var num2, resultado;
 
-  if (opcion !== "5" && opcion !== "7") {
+  if (opcion !== "5" && opcion !== "7" && opcion !== "6") {
     num2 = parseFloat(prompt("Ingrese el segundo número:"));
   }
 
