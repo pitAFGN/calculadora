@@ -32,6 +32,11 @@ function factorial(n) {
   return resultado;
 }
 
+function exponente(num1, exponenteNum) {
+  return num1 ** exponenteNum; // se lee: base elevado a exp
+}
+
+
 // Función principal del programa
 function calculadora() {
   var opcion = prompt(
